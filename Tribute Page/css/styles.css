@@ -1,0 +1,201 @@
+/*********************************************************TAG SECTION******************************************************************/
+hr {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #fff;
+    border-top: none;
+    margin-left: 48.25%;
+    width: 5%;
+}
+
+/********************************************************CLASS SECTION*****************************************************************/
+.carousel-item {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.carousel-images {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    display: block;
+    position: static;
+    padding-top: 20px;
+    color: #555;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for buttons */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHBhdGggZD0iTTEyLjIgMTUuOCA1LjIgNi43IDAgMCAwIC0yLjIgNCA2LjctMi4yIHRzdG9wPSIzIi8+PHBhdGggZD0iTTEyLjIgMTEuNyAyLjggMjYuNCA0LjkxLTEyLjIiIHN0cm9rZT0iIzAwNCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHBhdGggZD0iTTEyLjIgMTUuOCA1LjIgNi43IDAgMCAwIDIuMiA2LjctMi4yIHRzdG9wPSI3Ii8+PHBhdGggZD0iTTEyLjIgMTEuNyAyLjggMjYuNCA0LjkxLTEyLjIiIHN0cm9rZT0iIzAwNCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=');
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #007bff; /* Indicator color */
+}
+
+.skills-got-heading {
+    margin-top: 45px;
+    margin-left: 9px;
+}
+
+.cta-heading {
+    padding-bottom: 40px;
+}
+
+.socialM-heading {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.foot-icon {
+    margin: 8px;
+}
+
+.footer-link2 {
+    padding-left: 8px;
+}
+
+.hr-carousel {
+    margin-top: 50px;
+    border-top: none;
+    border-style: solid;
+    border-color: #fff;
+    width: 100%;
+    margin-left: 0;
+}
+
+.foot-statement {
+    color: gray;
+}
+
+/* Timeline styles */
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #769FCD;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: -12px;
+    width: 20px;
+    height: 20px;
+    background: #769FCD;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.timeline-item.right::before {
+    left: auto;
+    right: -12px;
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #112D4E;
+}
+
+.timeline-item p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/*********************************************************ID SECTION**********************************************************************/
+#title {
+    background-color: #112D4E;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+    color: #fff;
+}
+
+#timeline {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c2d8f1;
+    text-align: center;
+    color: #fff;
+}
+
+#carousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center; /* Center the heading */
+}
+
+#call-to-action {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 50px;
+}
+
+#footer {
+    background-color: #112D4E;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: #fff;
+}

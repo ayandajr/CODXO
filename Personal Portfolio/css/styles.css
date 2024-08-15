@@ -1,0 +1,123 @@
+/*********************************************************TAG SECTION******************************************************************/
+hr
+{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #fff;
+    border-top: none;
+    margin-left: 48.25%;
+    width: 5%;
+}
+/********************************************************CLASS SECTION*****************************************************************/
+.greet-image-me
+{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.greet-statement
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 2;
+}
+.skills-AI-pic
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+}
+.div-skills-section
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 2.5;
+}
+.carousel-item
+{
+    padding-top: 7%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.carousel-images
+{
+    margin-top: 20px;
+    width: 75px;
+    height: 75px;
+}
+.skills-got-heading
+{
+    margin-top: 45px;
+    margin-left: 9px;
+}
+.cta-heading
+{
+    padding-bottom: 40px;
+}
+.socialM-heading
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.foot-icon
+{
+    margin: 8px;
+}
+.footer-link2
+{
+    padding-left: 8px;
+}
+.hr-carousel
+{
+    margin-top: 50px;
+    border-top: none;
+    border-style: solid;
+    border-color: #fff;
+    width: 100%;
+    margin-left: 0;
+}
+.foot-statement
+{
+    color: gray;
+}
+/*********************************************************ID SECTION**********************************************************************/
+#title
+{
+    background-color: #112D4E;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+    color: #fff;
+}
+#greetings
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+#skills
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #769FCD;
+    text-align: center;
+    color: #fff;
+}
+#call-to-action
+{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 50px;
+}
+#footer
+{
+    background-color: #112D4E;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: #fff;
+}
